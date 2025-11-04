@@ -11,7 +11,7 @@ class PhoneController extends Controller
     {
         \Yii::$app->response->format = Response::FORMAT_JSON;
 
-        $phone = new Phone('Samsung', 'Galaxy S23', 256, 12000000);
+        $phone = new Phone('iPhone', 'iPhone 15 pro', 128, 13000000);
 
         return $phone->toArray();
     }
